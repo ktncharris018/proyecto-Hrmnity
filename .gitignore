@@ -41,7 +41,7 @@ $RECYCLE.BIN/
 #-------------------------
 # These should never be under version control,
 # as it poses a security risk.
-.env
+#.env -> conexion de la bd
 .vagrant
 Vagrantfile
 
@@ -127,3 +127,8 @@ nb-configuration.xml
 /phpunit*.xml
 
 /.php-cs-fixer.php
+
+# Ignorar README y LICENSE de CodeIgniter
+README.md
+LICENSE
+
